@@ -14,13 +14,25 @@ export const config = {
         status: 'active'
     },
     BOOKS_DEV: {
-        host: 'https://localhost:1010'
+        host: 'http://localhost:1010'
     },
     BOOKS_STG: {
-        host: 'https://localhost:2020'
+        host: 'http://localhost:2020'
     },
     BOOKS_PRD: {
-        host: 'https://localhost:3030'
+        host: 'http://localhost:3030'
+    },
+    greetings_dev: {
+        host: 'http://127.0.0.1:7001'
+    },
+    greetings_staging: {
+        host: 'http://127.0.0.1:7002'
+    },
+    greetings_preprod: {
+        host: 'http://127.0.0.1:7003'
+    },
+    greetings_prod: {
+        host: 'http://127.0.0.1:7004'
     }
 }
 
